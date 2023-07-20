@@ -5,18 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>E-come | Multi-Purpose HTML Template for Electronics Store</title>
-    <link rel="stylesheet" href="{{ asset('resources/css/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/slick-theme.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/style.css') }}">
 
-   <!-- 
-    <link rel="shortcut icon" href="favicon.ico" type="image/png">
-    <link rel="stylesheet" href="resources/css/slick.css">
-    <link rel="stylesheet" href="resources/css/slick-theme.css">
-    <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/style.css"> 
-	-->
+	<link rel="shortcut icon" href="favicon.ico" type="image/png">
+	<link rel="stylesheet" href="../resources/css/slick.css">
+	<link rel="stylesheet" href="../resources/css/slick-theme.css">
+	<link rel="stylesheet" href="../resources/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../resources/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../resources/css/style.css">
+
 </head>
 <body>
 	<div class="pushmenu menu-home5">
@@ -134,7 +130,7 @@
     <div class="wrappage">
         <header id="header" class="header-v1">
             <div class="header-top-banner">
-                <a href="#"><img src="../../img/banner-top.jpg" alt="" class="img-reponsive"></a>
+                <a href="#"><img src="../resources/img/banner-top.jpg" alt="" class="img-reponsive"></a>
             </div>
             <div class="topbar">
                 <div class="container container-240">
@@ -143,7 +139,7 @@
                             <div class="topbar-left">
                                 <div class="element element-store hidden-xs hidden-sm">
                                     <a id="label1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <img src="../../img/icon-map.png" alt="">
+                                    <img src="../resources/img/icon-map.png" alt="">
                                       <span>Store Location</span>
                                       
                                     </a>
@@ -154,7 +150,7 @@
                                     </ul>
                                 </div>
                                 <div class="element hidden-xs hidden-sm">
-                                    <a href="#"><img src="../../img/icon-track.png" alt=""><span>Track Your Order</span></a>
+                                    <a href="#"><img src="../resources/img/icon-track.png" alt=""><span>Track Your Order</span></a>
                                 </div>
                                 <div class="element element-account hidden-md hidden-lg">
                                     <a href="#">My Account</a>
@@ -170,11 +166,11 @@
                                     <a href="#">Help</a>
                                 </div>
                                 <div class="element hidden-xs hidden-sm">
-                                    <a href="#"><img src="../../img/icon-phone.png" alt=""><span>Save big on our app!</span></a>
+                                    <a href="#"><img src="../resources/img/icon-phone.png" alt=""><span>Save big on our app!</span></a>
                                 </div>
                                 <div class="element element-leaguage">
                                     <a id="label2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <img src="../../img/icon-l.png" alt="">
+                                        <img src="../resources/img/icon-l.png" alt="">
                                       <span>English</span>
                                       <span class="ion-ios-arrow-down f-10 e-arrow"></span>
                                     </a>
@@ -205,7 +201,7 @@
                 <div class="container container-240">
                     <div class="row flex">
                         <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 v-center header-logo">
-                            <a href="#"><img src="../../img/logo.png" alt="" class="img-reponsive"></a>
+                            <a href="#"><img src="../resources/img/logo.png" alt="" class="img-reponsive"></a>
                         </div>
                         <div class="col-lg-7 col-md-7 v-center header-search hidden-xs hidden-sm">
                             <form method="get" class="searchform ajax-search" action="/search" role="search">
@@ -215,7 +211,7 @@
                                     <li>
                                         <a class="flex align-center" href="">
                                             <div class="product-img">
-                                                <img src="../../img/product/iphonex.jpg" alt="">
+                                                <img src="../resources/img/product/iphonex.jpg" alt="">
                                             </div>
                                             <h3 class="product-title">Notebook Black Spire Smartphone Black 2.0</h3>
                                         </a>
@@ -223,14 +219,14 @@
                                     <li>
                                         <a class="flex align-center" href="">
                                             <div class="product-img">
-                                                <img src="../../img/product/sound.jpg" alt="">
+                                                <img src="../resources/img/product/sound.jpg" alt="">
                                             </div>
                                             <h3 class="product-title">Smartphone 6S 64GB LTE</h3>
                                         </a>
                                     <li>
                                         <a class="flex align-center" href="">
                                             <div class="product-img">
-                                                <img src="../../img/product/phone4.jpg" alt="">
+                                                <img src="../resources/img/product/phone4.jpg" alt="">
                                             </div>
                                             <h3 class="product-title">Notebook Black Spire Smartphone Black 2.0</h3>
                                         </a>
@@ -238,7 +234,7 @@
                                     <li>
                                         <a class="flex align-center" href="">
                                             <div class="product-img">
-                                                <img src="../../img/product/phone5.jpg" alt="">
+                                                <img src="../resources/img/product/phone5.jpg" alt="">
                                             </div>
                                             <h3 class="product-title">Smartphone 6S 64GB LTE </h3>
                                         </a>
@@ -246,7 +242,7 @@
                                     <li>
                                         <a class="flex align-center" href="">
                                             <div class="product-img">
-                                                <img src="../../img/product/phone1.jpg" alt="">
+                                                <img src="../resources/img/product/phone1.jpg" alt="">
                                             </div>
                                             <h3 class="product-title">Notebook Black Spire Smartphone Black 2.0</h3>
                                         </a>
@@ -281,7 +277,7 @@
                             <div class="right-panel">
                                 <div class="header-sub-element hidden-xs hidden-sm">
                                     <div class="sub-left">
-                                        <img src="../../img/icon-call.png" alt="">
+                                        <img src="../resources/img/icon-call.png" alt="">
                                     </div>
                                     <div class="sub-right">
                                         <span>Call Us Free</span>
@@ -289,18 +285,18 @@
                                     </div>
                                 </div>
                                 <div class="header-sub-element row">
-                                    <a class="hidden-xs hidden-sm" href=""><img src="../../img/icon-user.png" alt=""></a>
-                                    <a href="#"><img src="../../img/icon-heart.png" alt=""></a>
+                                    <a class="hidden-xs hidden-sm" href=""><img src="../resources/img/icon-user.png" alt=""></a>
+                                    <a href="#"><img src="../resources/img/icon-heart.png" alt=""></a>
                                     <div class="cart">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="label5">
-                                            <img src="../../img/icon-cart.png" alt="">
+                                            <img src="../resources/img/icon-cart.png" alt="">
                                             <span class="count cart-count">0</span>
                                         </a>
                                         <div class="dropdown-menu dropdown-cart">
                                             <ul class="mini-products-list">
                                                 <li class="item-cart">
                                                     <div class="product-img-wrap">
-                                                        <a href="#"><img src="../../img/cart1.jpg" alt="" class="img-reponsive"></a>
+                                                        <a href="#"><img src="../resources/img/cart1.jpg" alt="" class="img-reponsive"></a>
                                                     </div>
                                                     <div class="product-details">
                                                         <div class="inner-left">
@@ -314,7 +310,7 @@
                                                 </li>
                                                 <li class="item-cart">
                                                     <div class="product-img-wrap">
-                                                        <a href="#"><img src="../../img/cart1.jpg" alt="" class="img-reponsive"></a>
+                                                        <a href="#"><img src="../resources/img/cart1.jpg" alt="" class="img-reponsive"></a>
                                                     </div>
                                                     <div class="product-details">
                                                         <div class="inner-left">
@@ -542,27 +538,27 @@
                                         <div class="menu-level-1 dropdown-menu vertical-menu v2 pd">
                                             <div class="row">
                                                 <div class="col-md-4 text-center cate-item">
-                                                    <a href="#"><img src="../../img/megamenu/cate1.jpg" alt="" class="img-reponsive"></a>
+                                                    <a href="#"><img src="../resources/img/megamenu/cate1.jpg" alt="" class="img-reponsive"></a>
                                                     <h3><a href="#">Mirrorless Cameras</a></h3>
                                                 </div>
                                                 <div class="col-md-4 text-center cate-item">
-                                                    <a href="#"><img src="../../img/megamenu/cate2.jpg" alt="" class="img-reponsive"></a>
+                                                    <a href="#"><img src="../resources/img/megamenu/cate2.jpg" alt="" class="img-reponsive"></a>
                                                     <h3><a href="#">Lenses</a></h3>
                                                 </div>
                                                 <div class="col-md-4 text-center cate-item">
-                                                    <a href="#"><img src="../../img/megamenu/cate3.jpg" alt="" class="img-reponsive"></a>
+                                                    <a href="#"><img src="../resources/img/megamenu/cate3.jpg" alt="" class="img-reponsive"></a>
                                                     <h3><a href="#">Photography Drones</a></h3>
                                                 </div>
                                                 <div class="col-md-4 text-center cate-item">
-                                                    <a href="#"><img src="../../img/megamenu/cate4.jpg" alt="" class="img-reponsive"></a>
+                                                    <a href="#"><img src="../resources/img/megamenu/cate4.jpg" alt="" class="img-reponsive"></a>
                                                     <h3><a href="#">Sports & Action Cameras</a></h3>
                                                 </div>
                                                 <div class="col-md-4 text-center cate-item">
-                                                    <a href="#"><img src="../../img/megamenu/cate5.jpg" alt="" class="img-reponsive"></a>
+                                                    <a href="#"><img src="../resources/img/megamenu/cate5.jpg" alt="" class="img-reponsive"></a>
                                                     <h3><a href="#">Optics</a></h3>
                                                 </div>
                                                 <div class="col-md-4 text-center cate-item">
-                                                    <a href="#"><img src="../../img/megamenu/cate6.jpg" alt="" class="img-reponsive"></a>
+                                                    <a href="#"><img src="../resources/img/megamenu/cate6.jpg" alt="" class="img-reponsive"></a>
                                                     <h3><a href="#">Accessories</a></h3>
                                                 </div>
                                             </div>
@@ -576,7 +572,7 @@
                                 <nav class="main-menu">
                                     <div class="collapse navbar-collapse" id="myNavbar">
                                         <ul class="nav navbar-nav">
-                                            <li class="level1"><a href="#"><img src="../../img/icon-diamond.png" alt="">Flash Deals</a></li>
+                                            <li class="level1"><a href="#"><img src="../resources/img/icon-diamond.png" alt="">Flash Deals</a></li>
                                             <li class="level1"><a href="#">Tech Discovery<span class="h-ribbon h-pos e-skyblue">New</span></a></li>
                                             <li class="level1"><a href="#">Trending Styles</a></li>
                                             <li class="level1"><a href="#">Gift Cards <span class="h-ribbon h-pos e-green">sale</span></a></li>
@@ -584,7 +580,7 @@
                                     </div>
                                 </nav>
                                 <div class="header-bottom-right hidden-xs hidden-sm">
-                                    <img src="../../img/icon-ship.png" alt="" class="img-reponsive">
+                                    <img src="../resources/img/icon-ship.png" alt="" class="img-reponsive">
                                     <span>Free Shipping on Orders $100</span>
                                 </div>
                             </div>
@@ -603,7 +599,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                         <div class="footer-block footer-about">
                             <div class="f-logo">
-                                <a href="#"><img src="{{ asset('resources/images/logo.png') }}" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="../resources/img/logo.png" alt="" class="img-reponsive"></a>
                             </div>
                             <ul class="footer-block-content">
                                 <li class="address">
@@ -682,12 +678,12 @@
                 <div class="row flex lr">
                     <div class="col-xs-6 f-copyright"><span>© 2010-2018 EngoTheme. All rights reserved.</span></div>
                     <div class="col-xs-6 f-payment hidden-xs">
-                        <a href="#"><img src="{{ asset('resources/img/payment/mastercard.png') }}" alt="" class="img-reponsive"></a>
-                        <a href="#"><img src="../../img/payment/paypal.png" alt="" class="img-reponsive"></a>
-                        <a href="#"><img src="../../img/payment/visa.png" alt="" class="img-reponsive"></a>
-                        <a href="#"><img src="../../img/payment/american-express.png" alt="" class="img-reponsive"></a>
-                        <a href="#"><img src="../../img/payment/western-union.png" alt="" class="img-reponsive"></a>
-                        <a href="#"><img src="../../img/payment/jcb.png" alt="" class="img-reponsive"></a>
+                        <a href="#"><img src="../resources/img/payment/mastercard.png" alt="" class="img-reponsive"></a>
+                        <a href="#"><img src="../resources/img/payment/paypal.png" alt="" class="img-reponsive"></a>
+                        <a href="#"><img src="../resources/img/payment/visa.png" alt="" class="img-reponsive"></a>
+                        <a href="#"><img src="../resources/img/payment/american-express.png" alt="" class="img-reponsive"></a>
+                        <a href="#"><img src="../resources/img/payment/western-union.png" alt="" class="img-reponsive"></a>
+                        <a href="#"><img src="../resources/img/payment/jcb.png" alt="" class="img-reponsive"></a>
                     </div>
                 </div>
             </div>
@@ -696,11 +692,12 @@
         <!-- /footer -->
     </div>
     <a href="#" class="btn-gradient scroll_top"><i class="ion-ios-arrow-up"></i></a>
-    <script src="../../js/jquery.js"></script>
-    <script src="../../js/bootstrap.js"></script>
-    <script src="../../js/owl.carousel.min.js"></script>
-    <script src="../../js/slick.js"></script>
-    <script src="../../js/countdown.js"></script>
-    <script src="../../js/main.js"></script>
+
+	<script src="../resources/js/jquery.js"></script>
+	<script src="../resources/js/bootstrap.js"></script>
+	<script src="../resources/js/owl.carousel.min.js"></script>
+	<script src="../resources/js/slick.js"></script>
+	<script src="../resources/js/countdown.js"></script>
+	<script src="../resources/js/main.js"></script>
 </body>
 </html>

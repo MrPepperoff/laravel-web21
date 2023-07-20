@@ -8,17 +8,20 @@ class IndexController extends Controller{
     protected $layout = 'default';
     public function index(){
         $layout = 'main';
-        return view('pages.welcome');
+        $widget = view('widgets.vertical-wrapper',  compact('layout'));
+        return view('pages.welcome', compact('widget', 'layout'));
     }
     public function about(){
         $layout=$this->layout;
-        $x = 10;
-        $flag=true;
-        $mass=['apple','orange'];
-        $layout='default';
-        // return view('about', ['x' => $x]);
+        $widget = view('widgets.vertical-wrapper',  compact('layout'));
 
-        return view ('pages.about', compact('x', 'flag', 'mass','layout'));
+        return view ('pages.about', compact('widget', 'layout'));
+    }
+    public function contact(){
+        $layout=$this->layout;
+        $widget = view('widgets.vertical-wrapper',  compact('layout'));
+
+        return view ('pages.contact', compact('widget', 'layout'));
     }
 
 }

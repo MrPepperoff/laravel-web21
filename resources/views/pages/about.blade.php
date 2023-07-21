@@ -1,15 +1,6 @@
 @extends("layouts.{$layout}")
 
 @section('content')
-        <div class="container container-240">
-            <div class="pd-banner v2">
-               <a href="#" class="image-bd effect_img2"><img src="../resources/img/o-banner.jpg" alt="" class="img-reponsive"></a> 
-            </div>
-            <ul class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li class="active">About us</li>
-            </ul>
-        </div>
         <div class="aboutus">
             <div class="container container-240">
                 <div class="about-img spc2">

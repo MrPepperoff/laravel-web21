@@ -11,7 +11,7 @@
                                 <div class="slide">
                                     <div class="e-slide v2 js-slider-3items">
                                         <div class="e-slide-img v2">
-                                            <a href="#"><img src="../resources/img/slider/h1_s1.jpg" alt=""></a>
+                                            <a href="#"><img src="{{ asset('resources/img/slider/h1_s1.jpg') }}" alt=""></a>
                                             <div class="box-center slide-content v3">
                                                 <p class="cate v2 white text-center">Power to the pro</p>
                                                 <h3 class="white v3 text-center">The vision is brighter than ever.</h3>
@@ -19,7 +19,7 @@
                                             </div>
                                         </div>
                                         <div class="e-slide-img v2">
-                                            <a href="#"><img src="../resources/img/slider/h1_s2.jpg" alt=""></a>
+                                            <a href="#"><img src="{{ asset('resources/img/slider/h1_s2.jpg') }}" alt=""></a>
                                             <div class="box-center slide-content v3">
                                                 <p class="cate v2 white text-center">Power to the pro</p>
                                                 <h3 class="white v3 text-center">The vision is brighter than ever.</h3>
@@ -27,7 +27,7 @@
                                             </div>
                                         </div>
                                         <div class="e-slide-img v2">
-                                            <a href="#"><img src="../resources/img/slider/h1_s3.jpg" alt=""></a>
+                                            <a href="#"><img src="{{ asset('resources/img/slider/h1_s3.jpg') }}" alt=""></a>
                                             <div class="box-center slide-content v3">
                                                 <p class="cate v2 white text-center">Power to the pro</p>
                                                 <h3 class="white v3 text-center">The vision is brighter than ever.</h3>
@@ -40,7 +40,7 @@
                             <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="ads">
                                     <div class="banner-img banner-img2">
-                                        <a href="#"><img src="../resources/img/banner/h1_b1.jpg" alt="" class="img-responsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/banner/h1_b1.jpg') }}" alt="" class="img-responsive"></a>
                                         <div class="h-banner-content v3">
                                             <p class="content-name">Mini Quick Chagre 3.0</p>
                                             <p class="content-price percent">Sale up to <span class="red">40</span></p>
@@ -59,7 +59,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6">
                         <div class="banner-img banner-img2">
-                            <a href="#"><img src="../resources/img/banner/h1_b2.jpg" alt="" class="img-responsive"></a>
+                            <a href="#"><img src="{{ asset('resources/img/banner/h1_b2.jpg') }}" alt="" class="img-responsive"></a>
                             <div class="h-banner-content">
                                 <p class="content-name">The pro stage for your home</p>
                                 <p class="content-price">From <span class="red">69.99</span></p>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6">
                         <div class="banner-img banner-img2">
-                            <a href="#"><img src="../resources/img/banner/h1_b3.jpg" alt="" class="img-responsive"></a>
+                            <a href="#"><img src="{{ asset('resources/img/banner/h1_b3.jpg') }}" alt="" class="img-responsive"></a>
                             <div class="h-banner-content">
                                 <p class="content-name">Smart speaker for music lovers</p>
                                 <p class="content-price">From <span class="red">39.99</span></p>
@@ -84,7 +84,7 @@
             <div class="container container-240">
                 <div class="title-icon t-column">
                     <div class="t-inside">
-                        <img src="../resources/img/flash-deals.png" alt="">
+                        <img src="{{ asset('resources/img/flash-deals.png') }}" alt="">
                     </div>
                     <h1>Flash Deals</h1>
                 </div>
@@ -92,7 +92,7 @@
                     <div class="product-countd pd-bd product-inner">
                         <div class="product-item-countd">
                             <div class="product-head product-img">
-                                <a href="#"><img src="../resources/img/product/headphone5.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/headphone5.jpg') }}" alt=""></a>
                                 <div class="ribbon-price v3 red"><span>- 30% </span></div>
                             </div>
                             <div class="product-info">
@@ -122,7 +122,7 @@
                     <div class="product-countd pd-bd product-inner">
                         <div class="product-item-countd">
                             <div class="product-head">
-                                <a href="#"><img src="../resources/img/product/security.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/security.jpg') }}" alt=""></a>
                                 <div class="ribbon-price v3 red"><span>- 30% </span></div>
                             </div>
                             <div class="product-info">
@@ -152,7 +152,7 @@
                     <div class="product-countd pd-bd product-inner">
                         <div class="product-item-countd">
                             <div class="product-head">
-                                <a href="#"><img src="../resources/img/product/iphonex.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/iphonex.jpg') }}" alt=""></a>
                                 <div class="ribbon-price v3 red"><span>- 30% </span></div>
                             </div>
                             <div class="product-info">
@@ -182,7 +182,7 @@
                     <div class="product-countd pd-bd product-inner">
                         <div class="product-item-countd">
                             <div class="product-head">
-                                <a href="#"><img src="../resources/img/product/headphone2.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/headphone2.jpg') }}" alt=""></a>
                             </div>
                             <div class="product-info">
                                 <p class="product-cate text-center">Head phones</p>
@@ -211,7 +211,7 @@
                     <div class="product-countd pd-bd product-inner">
                         <div class="product-item-countd">
                             <div class="product-head">
-                                <a href="#"><img src="../resources/img/product/sonos.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/sonos.jpg') }}" alt=""></a>
                             </div>
                             <div class="product-info">
                                 <p class="product-cate text-center">Head phones</p>
@@ -240,7 +240,7 @@
                     <div class="product-countd pd-bd product-inner">
                         <div class="product-item-countd">
                             <div class="product-head">
-                                <a href="#"><img src="../resources/img/product/headphone4.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/headphone4.jpg') }}" alt=""></a>
                             </div>
                             <div class="product-info">
                                 <p class="product-cate text-center">Head phones</p>
@@ -269,7 +269,7 @@
                     <div class="product-countd pd-bd product-inner">
                         <div class="product-item-countd">
                             <div class="product-head">
-                                <a href="#"><img src="../resources/img/product/fujifilm.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/fujifilm.jpg') }}" alt=""></a>
                             </div>
                             <div class="product-info">
                                 <p class="product-cate text-center">Head phones</p>
@@ -311,7 +311,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -370,7 +370,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group"></div>
@@ -428,7 +428,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd3.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -490,7 +490,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd4.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd4.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -552,7 +552,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -614,7 +614,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -673,7 +673,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsung3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsung3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -732,7 +732,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -791,7 +791,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -850,7 +850,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -912,7 +912,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group"></div>
@@ -970,7 +970,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1029,7 +1029,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd3.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -1091,7 +1091,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsung3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsung3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1150,7 +1150,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd4.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd4.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1212,7 +1212,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1271,7 +1271,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1330,7 +1330,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1392,7 +1392,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group"></div>
@@ -1450,7 +1450,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1509,7 +1509,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd3.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -1571,7 +1571,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsung3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsung3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1630,7 +1630,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd4.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd4.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1692,7 +1692,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1755,7 +1755,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1814,7 +1814,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1876,7 +1876,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group"></div>
@@ -1934,7 +1934,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -1993,7 +1993,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd3.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -2055,7 +2055,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsung3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsung3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2114,7 +2114,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd4.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd4.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2176,7 +2176,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2235,7 +2235,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2294,7 +2294,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2356,7 +2356,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group"></div>
@@ -2414,7 +2414,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2473,7 +2473,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd3.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -2535,7 +2535,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsung3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsung3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2594,7 +2594,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd4.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd4.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2656,7 +2656,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2719,7 +2719,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2778,7 +2778,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2840,7 +2840,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group"></div>
@@ -2898,7 +2898,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -2957,7 +2957,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd3.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -3019,7 +3019,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsung3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsung3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3078,7 +3078,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd4.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd4.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3140,7 +3140,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3199,7 +3199,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3258,7 +3258,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3320,7 +3320,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group"></div>
@@ -3378,7 +3378,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3437,7 +3437,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd3.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -3499,7 +3499,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsung3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsung3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3558,7 +3558,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/pd4.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/pd4.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3620,7 +3620,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3685,7 +3685,7 @@
             <div class="container container-240">
                 <div class="h-heading">
                     <div class="title-icon t-inline">
-                        <img src="../resources/img/iconbs.png" alt="">
+                        <img src="{{ asset('resources/img/iconbs.png') }}" alt="">
                         <h1>Best Sellers</h1>
                     </div>
                     <ul class="product-tab-sw2">
@@ -3702,7 +3702,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 product-item">
                                 <div class="pd-bd product-inner v3">
                                     <div class="product-img v2">
-                                        <a href="#"><img src="../resources/img/b-product1.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/b-product1.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -3766,7 +3766,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-12 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/xbox.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/xbox.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -3828,7 +3828,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/fujifilm.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/fujifilm.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -3890,7 +3890,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/ring.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/ring.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -3958,7 +3958,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 product-item">
                                 <div class="pd-bd product-inner v3">
                                     <div class="product-img v2">
-                                        <a href="#"><img src="../resources/img/b-product2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/b-product2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -4022,7 +4022,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-12 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/xbox.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/xbox.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4084,7 +4084,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/fujifilm.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/fujifilm.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4146,7 +4146,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/ring.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/ring.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4214,7 +4214,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 product-item">
                                 <div class="pd-bd product-inner v3">
                                     <div class="product-img v2">
-                                        <a href="#"><img src="../resources/img/b-product3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/b-product3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -4278,7 +4278,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-12 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/xbox.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/xbox.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4340,7 +4340,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/fujifilm.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/fujifilm.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4402,7 +4402,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/ring.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/ring.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4470,7 +4470,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 product-item">
                                 <div class="pd-bd product-inner v3">
                                     <div class="product-img v2">
-                                        <a href="#"><img src="../resources/img/b-product4.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/b-product4.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -4534,7 +4534,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-12 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/xbox.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/xbox.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4596,7 +4596,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/fujifilm.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/fujifilm.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4658,7 +4658,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/ring.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/ring.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4726,7 +4726,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 product-item">
                                 <div class="pd-bd product-inner v3">
                                     <div class="product-img v2">
-                                        <a href="#"><img src="../resources/img/b-product1.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/b-product1.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -4790,7 +4790,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-12 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/xbox.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/xbox.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4852,7 +4852,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/fujifilm.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/fujifilm.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4914,7 +4914,7 @@
                                     <div class="col-xs-12 col-sm-6 col-md-6 product-item">
                                         <div class="pd-bd product-inner">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/ring.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/ring.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -4985,7 +4985,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="banner-img banner-img2">
-                            <a href="#"><img src="../resources/img/banner/h1_b4.jpg" alt="" class="img-responsive"></a>
+                            <a href="#"><img src="{{ asset('resources/img/banner/h1_b4.jpg') }}" alt="" class="img-responsive"></a>
                             <div class="h-banner-content v2">
                                 <p class="content-name">Home at the good</p>
                                 <p class="content-price">From <span class="red">69.99</span></p>
@@ -4995,7 +4995,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="banner-img banner-img2">
-                            <a href="#"><img src="../resources/img/banner/h1_b5.jpg" alt="" class="img-responsive"></a>
+                            <a href="#"><img src="{{ asset('resources/img/banner/h1_b5.jpg') }}" alt="" class="img-responsive"></a>
                             <div class="h-banner-content v2">
                                 <p class="content-name">Snap Digital Camera</p>
                                 <p class="content-price">From <span class="red">19.99</span></p>
@@ -5005,7 +5005,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="banner-img banner-img2">
-                            <a href="#"><img src="../resources/img/banner/h1_b6.jpg" alt="" class="img-responsive"></a>
+                            <a href="#"><img src="{{ asset('resources/img/banner/h1_b6.jpg') }}" alt="" class="img-responsive"></a>
                             <div class="h-banner-content v2">
                                 <p class="content-name">Minimal Gold Wall Clock</p>
                                 <p class="content-price">From <span class="red">39.99</span></p>
@@ -5020,7 +5020,7 @@
             <div class="container container-240">
                 <div class="title-icon t-column mg-50">
                     <div class="t-inside">
-                        <img src="../resources/img/real.png" alt="">
+                        <img src="{{ asset('resources/img/real.png') }}" alt="">
                     </div>
                     <h1>New releases</h1>
                 </div>
@@ -5037,7 +5037,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/tv2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/tv2.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -5072,7 +5072,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/headphone3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/headphone3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5106,7 +5106,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsungbox.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsungbox.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5140,7 +5140,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/smartwatch.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/smartwatch.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5174,7 +5174,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5208,7 +5208,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5242,7 +5242,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5276,7 +5276,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5310,7 +5310,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5344,7 +5344,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5382,7 +5382,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/tv.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/tv.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -5417,7 +5417,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/headphone3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/headphone3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5451,7 +5451,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsungbox.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsungbox.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5485,7 +5485,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/smartwatch.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/smartwatch.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5519,7 +5519,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5553,7 +5553,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5587,7 +5587,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5621,7 +5621,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5655,7 +5655,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5689,7 +5689,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5727,7 +5727,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/fujifilm.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/fujifilm.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -5762,7 +5762,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/headphone3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/headphone3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5796,7 +5796,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsungbox.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsungbox.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5830,7 +5830,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/smartwatch.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/smartwatch.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5864,7 +5864,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5898,7 +5898,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5932,7 +5932,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -5966,7 +5966,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6000,7 +6000,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6034,7 +6034,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6072,7 +6072,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsung.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsung.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -6107,7 +6107,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/headphone3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/headphone3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6141,7 +6141,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsungbox.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsungbox.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6175,7 +6175,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/smartwatch.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/smartwatch.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6209,7 +6209,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6243,7 +6243,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6277,7 +6277,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6311,7 +6311,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6345,7 +6345,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6379,7 +6379,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6417,7 +6417,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/headphone.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/headphone.jpg') }}" alt="" class="img-reponsive"></a>
                                         <div class="ribbon-price red"><span>- 30% </span></div>
                                     </div>
                                     <div class="product-info">
@@ -6452,7 +6452,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/headphone3.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/headphone3.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6486,7 +6486,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/samsungbox.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/samsungbox.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6520,7 +6520,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/smartwatch.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/smartwatch.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6554,7 +6554,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6588,7 +6588,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6622,7 +6622,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6656,7 +6656,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/macbook2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/macbook2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6690,7 +6690,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6724,7 +6724,7 @@
                             <div class="product-item">
                                 <div class="pd-bd product-inner">
                                     <div class="product-img">
-                                        <a href="#"><img src="../resources/img/product/sound2.jpg" alt="" class="img-reponsive"></a>
+                                        <a href="#"><img src="{{ asset('resources/img/product/sound2.jpg') }}" alt="" class="img-reponsive"></a>
                                     </div>
                                     <div class="product-info">
                                         <div class="color-group">
@@ -6764,7 +6764,7 @@
             <div class="brand">
                 <div class="ecome-heading style5v3 spc4">
                     <div class="title-icon t-inline t-line">
-                        <img src="../resources/img/iconbrand.png" alt="">
+                        <img src="{{ asset('resources/img/iconbrand.png') }}" alt="">
                         <h1>Shop by brand</h1>
                     </div>
                     <a href="#" class="btn-show">Shop more<i class="ion-ios-arrow-forward"></i></a>
@@ -6772,25 +6772,25 @@
                 
                 <div class="owl-carousel owl-theme owl-brand js-owl-brand">
                     <div class="brand-item">
-                        <a href="#" class="hover-images"><img src="../resources/img/brand/brand.png" alt=""></a>
+                        <a href="#" class="hover-images"><img src="{{ asset('resources/img/brand/brand.png') }}" alt=""></a>
                     </div>
                     <div class="brand-item">
-                        <a href="#" class="hover-images"><img src="../resources/img/brand/brand_2.png" alt=""></a>
+                        <a href="#" class="hover-images"><img src="{{ asset('resources/img/brand/brand_2.png') }}" alt=""></a>
                     </div>
                     <div class="brand-item">
-                        <a href="#" class="hover-images"><img src="../resources/img/brand/brand_3.png" alt=""></a>
+                        <a href="#" class="hover-images"><img src="{{ asset('resources/img/brand/brand_3.png') }}" alt=""></a>
                     </div>
                     <div class="brand-item">
-                        <a href="#" class="hover-images"><img src="../resources/img/brand/brand_4.png" alt=""></a>
+                        <a href="#" class="hover-images"><img src="{{ asset('resources/img/brand/brand_4.png') }}" alt=""></a>
                     </div>
                     <div class="brand-item">
-                        <a href="#" class="hover-images"><img src="../resources/img/brand/brand_5.png" alt=""></a>
+                        <a href="#" class="hover-images"><img src="{{ asset('resources/img/brand/brand_5.png') }}" alt=""></a>
                     </div>
                     <div class="brand-item">
-                        <a href="#" class="hover-images"><img src="../resources/img/brand/brand_7.png" alt=""></a>
+                        <a href="#" class="hover-images"><img src="{{ asset('resources/img/brand/brand_7.png') }}" alt=""></a>
                     </div>
                     <div class="brand-item">
-                        <a href="#" class="hover-images"><img src="../resources/img/brand/brand_8.png" alt=""></a>
+                        <a href="#" class="hover-images"><img src="{{ asset('resources/img/brand/brand_8.png') }}" alt=""></a>
                     </div>
                 </div>
                 <div class="about-brand">
@@ -6798,7 +6798,7 @@
                         <div class="col-xs-12 col-sm-12 col-sm-3 col-md-4">
                             <div class="about-brand-info text-center">
                                 <div class="brand-img">
-                                    <a href="#" class="hover-images"><img src="../resources/img/brand/sony_info.png" alt=""></a>
+                                    <a href="#" class="hover-images"><img src="{{ asset('resources/img/brand/sony_info.png') }}" alt=""></a>
                                 </div>
                                 <div class="brand-info">
                                     <p>All the Lorem Ipsum generators on the Internet
@@ -6814,7 +6814,7 @@
                                     <div class="pd-bd product-inner v2">
                                         <div class="flex align-center">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/tplink.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/tplink.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -6865,7 +6865,7 @@
                                     <div class="pd-bd product-inner v2">
                                         <div class="flex align-center">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/wifi.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/wifi.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -6916,7 +6916,7 @@
                                     <div class="pd-bd product-inner v2">
                                         <div class="flex align-center">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/phone5.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/phone5.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -6967,7 +6967,7 @@
                                     <div class="pd-bd product-inner v2">
                                         <div class="flex align-center">
                                             <div class="product-img">
-                                                <a href="#"><img src="../resources/img/product/logitech.jpg" alt="" class="img-reponsive"></a>
+                                                <a href="#"><img src="{{ asset('resources/img/product/logitech.jpg') }}" alt="" class="img-reponsive"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="color-group">
@@ -7027,7 +7027,7 @@
                         <h1 class="cate-title">Featured Products</h1>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/usb.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/usb.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7036,7 +7036,7 @@
                         </div>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/macbook.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/macbook.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7045,7 +7045,7 @@
                         </div>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/flycam.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/flycam.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7057,7 +7057,7 @@
                         <h1 class="cate-title">Top Rated Products</h1>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/samsung.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/samsung.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7066,7 +7066,7 @@
                         </div>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/headphone2.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/headphone2.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7075,7 +7075,7 @@
                         </div>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/anker.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/anker.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7087,7 +7087,7 @@
                         <h1 class="cate-title">Top Selling Products</h1>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/headphone.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/headphone.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7096,7 +7096,7 @@
                         </div>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/samsung2.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/samsung2.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7105,7 +7105,7 @@
                         </div>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="../resources/img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -7118,7 +7118,7 @@
         </div>
         <div class="container container-240">
             <div class="banner-callus spc1 image-bd effect_img2">
-                <a href="#"><img src="../resources/img/banner/h1_b7.jpg" alt="" class="img-responsive"></a>
+                <a href="#"><img src="{{ asset('resources/img/banner/h1_b7.jpg') }}" alt="" class="img-responsive"></a>
                 <div class="box-center v2">
                     <p>Free Shipping on Orders $50</p>
                     <a href="#" class="btn-callus">Shop now</a>
@@ -7129,7 +7129,7 @@
             <div class="container container-240">
                 <div class="h-heading">
                     <div class="title-icon t-inline">
-                        <img src="../resources/img/iconbs.png" alt="">
+                        <img src="{{ asset('resources/img/iconbs.png') }}" alt="">
                         <h1>You may like</h1>
                     </div>
                     <a href="#" class="btn-morepd">
@@ -7141,7 +7141,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/ipad.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/ipad.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7196,7 +7196,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/tplink.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/tplink.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7247,7 +7247,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/wifi.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/wifi.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7298,7 +7298,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/macbook.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/macbook.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7351,7 +7351,7 @@
                             <div class="ribbon-price v4 red"><span>- 30% </span></div>
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/phone5.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/phone5.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7403,7 +7403,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/logitech.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/logitech.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7454,7 +7454,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/ipad.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/ipad.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7505,7 +7505,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/tplink.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/tplink.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7556,7 +7556,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/phone5.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/phone5.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7607,7 +7607,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/wifi.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/wifi.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7658,7 +7658,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/sonos.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/sonos.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7709,7 +7709,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/headphone2.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/headphone2.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7760,7 +7760,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/headphone.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/headphone.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7811,7 +7811,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/tv.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/tv.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7862,7 +7862,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/phone2.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/phone2.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7913,7 +7913,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/fujifilm.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/fujifilm.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -7964,7 +7964,7 @@
                         <div class="pd-bd product-inner v2">
                             <div class="flex align-center">
                                 <div class="product-img">
-                                    <a href="#"><img src="../resources/img/product/samsung.jpg" alt="" class="img-reponsive"></a>
+                                    <a href="#"><img src="{{ asset('resources/img/product/samsung.jpg') }}" alt="" class="img-reponsive"></a>
                                 </div>
                                 <div class="product-info">
                                     <div class="color-group">
@@ -8018,28 +8018,28 @@
             <div class="container container-240">
                 <div class="feature-inside">
                     <div class="feature-block text-center">
-                        <div class="feature-block-img"><img src="../resources/img/feature/truck.png" alt="" class="img-reponsive"></div>
+                        <div class="feature-block-img"><img src="{{ asset('resources/img/feature/truck.png') }}" alt="" class="img-reponsive"></div>
                         <div class="feature-info">
                             <h3>Worldwide Delivery</h3>
                             <p>With sites in 5 languages, we ship to over 200 countries & regions.</p>
                         </div>
                     </div>
                     <div class="feature-block text-center">
-                        <div class="feature-block-img"><img src="../resources/img/feature/credit-card.png" alt="" class="img-reponsive"></div>
+                        <div class="feature-block-img"><img src="{{ asset('resources/img/feature/credit-card.png') }}" alt="" class="img-reponsive"></div>
                         <div class="feature-info">
                             <h3>Safe Payment</h3>
                             <p>Pay with the world’s most popular and secure payment methods.</p>
                         </div>
                     </div>
                     <div class="feature-block text-center">
-                        <div class="feature-block-img"><img src="../resources/img/feature/safety.png" alt="" class="img-reponsive"></div>
+                        <div class="feature-block-img"><img src="{{ asset('resources/img/feature/safety.png') }}" alt="" class="img-reponsive"></div>
                         <div class="feature-info">
                             <h3>Shop with Confidence</h3>
                             <p>Our Buyer Protection covers your purchase from click to delivery.</p>
                         </div>
                     </div>
                     <div class="feature-block text-center">
-                        <div class="feature-block-img"><img src="../resources/img/feature/telephone.png" alt="" class="img-reponsive"></div>
+                        <div class="feature-block-img"><img src="{{ asset('resources/img/feature/telephone.png') }}" alt="" class="img-reponsive"></div>
                         <div class="feature-info">
                             <h3>24/7 Help Center</h3>
                             <p>Round-the-clock assistance for a smooth shopping experience.</p>

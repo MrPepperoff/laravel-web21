@@ -1,14 +1,6 @@
 @extends("layouts.{$layout}")
 
 @section('content')
-        <div class="container container-240">
-            <div class="pd-banner v2">
-               <a href="#" class="image-bd effect_img2"><img src="img/o-banner.jpg" alt="" class="img-reponsive"></a> 
-            </div>
-            <ul class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li class="active">Contact </li>
-            </ul>
             <div class="e-contact">
                 <div id="googlemap1" class="map"></div>
                 <div class="row">
@@ -71,7 +63,7 @@
                     </div>
                 </div>
                 <div class="banner-callus image-bd effect_img2">
-                    <a href="#"><img src="img/banner/h1_b7.jpg" alt="" class="img-responsive"></a>
+                    <a href="#"><img src="{{ asset('resources/img/banner/h1_b7.jpg') }}') }}" alt="" class="img-responsive"></a>
                     <div class="box-center v2">
                         <p>Call us free : + (123) 456 789</p>
                         <a href="#" class="btn-callus">Shop now</a>
@@ -86,7 +78,7 @@
                         <h1 class="cate-title">Featured Products</h1>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/usb.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/usb.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -96,7 +88,7 @@
 
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/macbook.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/macbook.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -106,7 +98,7 @@
 
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/flycam.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/flycam.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -120,7 +112,7 @@
                         <h1 class="cate-title">Top Rated Products</h1>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/samsung.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/samsung.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -130,7 +122,7 @@
 
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/headphone2.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/headphone2.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -140,7 +132,7 @@
 
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/anker.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/anker.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -154,7 +146,7 @@
                         <h1 class="cate-title">Top Selling Products</h1>
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/headphone.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/headphone.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -164,7 +156,7 @@
 
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/samsung2.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/samsung2.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -174,7 +166,7 @@
 
                         <div class="cate-item">
                             <div class="product-img">
-                                <a href="#"><img src="img/product/sound.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="{{ asset('resources/img/product/sound.jpg') }}" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="product-info">
                                 <h3 class="product-title"><a href="#">Epson Home Cinema 5040UB </a></h3>
@@ -190,7 +182,7 @@
             <div class="container container-240">
                 <div class="feature-inside">
                     <div class="feature-block text-center">
-                        <div class="feature-block-img"><img src="img/feature/truck.png" alt="" class="img-reponsive"></div>
+                        <div class="feature-block-img"><img src="{{ asset('resources/img/feature/truck.png') }}" alt="" class="img-reponsive"></div>
                         <div class="feature-info">
                             <h3>Worldwide Delivery</h3>
                             <p>With sites in 5 languages, we ship to over 200 countries & regions.</p>
@@ -198,7 +190,7 @@
                     </div>
 
                     <div class="feature-block text-center">
-                        <div class="feature-block-img"><img src="img/feature/credit-card.png" alt="" class="img-reponsive"></div>
+                        <div class="feature-block-img"><img src="{{ asset('resources/img/feature/credit-card.png') }}" alt="" class="img-reponsive"></div>
                         <div class="feature-info">
                             <h3>Safe Payment</h3>
                             <p>Pay with the world’s most popular and secure payment methods.</p>
@@ -206,7 +198,7 @@
                     </div>
 
                     <div class="feature-block text-center">
-                        <div class="feature-block-img"><img src="img/feature/safety.png" alt="" class="img-reponsive"></div>
+                        <div class="feature-block-img"><img src="{{ asset('resources/img/feature/safety.png') }}" alt="" class="img-reponsive"></div>
                         <div class="feature-info">
                             <h3>Shop with Confidence</h3>
                             <p>Our Buyer Protection covers your purchase from click to delivery.</p>
@@ -214,7 +206,7 @@
                     </div>
 
                     <div class="feature-block text-center">
-                        <div class="feature-block-img"><img src="img/feature/telephone.png" alt="" class="img-reponsive"></div>
+                        <div class="feature-block-img"><img src="{{ asset('resources/img/feature/telephone.png') }}" alt="" class="img-reponsive"></div>
                         <div class="feature-info">
                             <h3>24/7 Help Center</h3>
                             <p>Round-the-clock assistance for a smooth shopping experience.</p>

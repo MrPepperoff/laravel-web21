@@ -16,6 +16,10 @@ use App\Http\Controllers\IndexController;
 
 Route::get('/', [IndexController::class, 'index']);
 
-Route::get('/about', [IndexController::class, 'about']);
+Route::get('/about', [IndexController::class, 'about'])->name('about');
+
+Route::get('/posts/{flag?}', [IndexController::class, 'posts'])->name('posts');
+
+Route::post('/obr', [IndexController::class, 'obr']);
 
 Route::get('/contact', [IndexController::class, 'contact']);

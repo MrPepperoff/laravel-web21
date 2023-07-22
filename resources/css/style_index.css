@@ -1,0 +1,112 @@
+.two{
+	color: #000;
+	border: 6px solid #fb8500;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: Arial;
+	width: 400px;
+	margin: 0px auto;
+	border-radius: 20px;
+}
+.two h1{
+	margin: 10px 0;
+	padding-bottom: 20px;
+	text-align: center;
+	border-bottom: 1px solid #fb8500;
+}
+
+.two > div{
+	border-bottom: 1px solid #fb8500;
+/*	margin: 30px 0px;*/
+	padding: 20px 0;	
+}
+.name_reg{
+	display: flex;
+}
+::selection {
+background: #fb8500;
+}
+
+.two select{
+	background: #333;
+	color: #fff;
+	border: 2px inset #333;
+}
+.two input{
+	color: #fff;
+	background: #333;
+	border: 2px inset #333;
+	padding: 4px;
+	box-sizing: border-box;
+}
+.two input[type='text']{
+	width: 90%;
+}
+.two input[type='radio']:after,
+.two input[type='checkbox']:after {
+        width: 11px;
+        height: 11px;
+        top: 0;
+        left: 0;
+        border: 1.5px solid #ccc;
+        position: relative;
+        background-color: #333;
+        content: '';
+        display:block;
+        visibility: visible;
+    }
+.two input[type='radio']:after{
+	border-radius: 50%;
+}
+.two input[type='checkbox']:checked:after{
+	content: 'X';
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	font-size: 11px;
+	line-height: 11.5px;
+}
+.two input[type='radio']:checked:after,
+.two input[type='checkbox']:checked:after{
+        background-color: #fb8500;
+    }
+.two .data_wrap{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.two textarea{
+	margin: 10px 0;
+	box-sizing: border-box;
+	background: #333;
+	width: 100%;
+	resize: vertical;
+	
+	height: 80px;
+	color: #fff;
+}
+.two button{
+	background: #333;
+	border-color: #fb8500;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 6px;
+}
+.two button[disabled]{
+	opacity: 0.4;
+}
+.two .error,
+.two .success{
+	margin: 0;
+	box-sizing: border-box;
+}
+.two .error{
+	border-bottom: 3px inset #a00;
+	background: rgba(100, 0, 0, .2);
+}
+
+.two .success{
+	border-bottom: 3px solid #5f5;
+	background: rgba(85, 255, 85, .2);
+}

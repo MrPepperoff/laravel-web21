@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="{{ asset('resources/css/owl.carousel.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('resources/css/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('resources/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('resources/css/style_index.css') }}">
 </head>
 
 <body>

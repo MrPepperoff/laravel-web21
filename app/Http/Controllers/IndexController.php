@@ -4,15 +4,20 @@ namespace App\Http\Controllers;
 
 use App\Validators\PostValidator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Validator;
 
 class IndexController extends Controller{
     protected $layout = 'default';
     public function index(){
+
+        $data = DB::select('select * from posts');
+
         $layout = 'main';
         $widget = view('widgets.vertical-wrapper',  compact('layout'));
-        return view('pages.welcome', compact('widget', 'layout'));
+
+        return view('pages.welcome', compact('widget', 'layout', 'data'));
     }
     public function about(){
         // шаблон
@@ -35,6 +40,7 @@ class IndexController extends Controller{
             )
         );
     }
+
     public function contact(){
         $layout=$this->layout;
         $verticalWrapper = view('widgets.vertical-wrapper',  compact('layout'));
@@ -45,6 +51,42 @@ class IndexController extends Controller{
 
         return view ('pages.contact', compact('verticalWrapper', 'menuPush', 'layout', 'bannerTop', 'breadcrumb', 'bannerHeadBottom'));
     }
+
+    public function categories(){
+        $layout=$this->layout;
+        
+        $verticalWrapper = view('widgets.vertical-wrapper',  compact('layout'));
+        $breadcrumb = view('widgets.breadcrumb',  compact('layout'));
+        $menuPush = view('widgets.menu-push', compact('layout'));
+        $bannerTop = view('widgets.banner-top', compact('layout'));
+        $bannerHeadBottom = view('widgets.banner-header-bottom', compact('layout'));
+
+        return view ('pages.categories', compact('verticalWrapper', 'menuPush', 'layout', 'bannerTop', 'breadcrumb', 'bannerHeadBottom'));
+    }
+
+    public function category(){
+        $layout=$this->layout;
+
+        $verticalWrapper = view('widgets.vertical-wrapper',  compact('layout'));
+        $breadcrumb = view('widgets.breadcrumb',  compact('layout'));
+        $menuPush = view('widgets.menu-push', compact('layout'));
+        $bannerTop = view('widgets.banner-top', compact('layout'));
+        $bannerHeadBottom = view('widgets.banner-header-bottom', compact('layout'));
+
+        return view ('pages.category', compact('verticalWrapper', 'menuPush', 'layout', 'bannerTop', 'breadcrumb', 'bannerHeadBottom'));
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     public function posts(){
 
         $layout=$this->layout;
@@ -53,12 +95,61 @@ class IndexController extends Controller{
     public function obr(Request $request){
 
         $validator = PostValidator::valid($request);
-
+ 
+        
         if($validator->fails()){
 
             return Redirect::to('posts')->with('error', 'error!');
             
-        }   
+        }
+        DB::insert('insert into posts (text) value (?)', [$request->text]);   
         return Redirect::to('posts')->with('success', 'ok!');
+    }
+    public function obr_db(Request $request){
+
+        $validator = PostValidator::obrab($request);
+ 
+        
+        if($validator->fails()){
+
+            return Redirect::to('db1')->with('error', 'error!');
+            
+        }
+        DB::insert('insert into posts (text) value (?)', [$request->name]);   
+        return Redirect::to('db1')->with('success', 'ok!');
+    }
+
+
+
+
+    public function db1($id= null, $name= null){
+        // $mass = ['id'=> $id, 'name'=>$name];
+        // dd($mass);
+        $layout="full";
+        return view ('pages.db1', compact('layout'));
+    }
+    public function db2(Request $request){
+    
+        dd($request);
+    }
+    
+
+
+
+
+
+    public function postsobr(Request $request){
+        DB::insert('insert into posts (text) value (?)',[$request->id]);
+        return Redirect::to('/');
+    }
+    public function updatepost(Request $request){
+
+        DB::update('update posts set text = ? where id = ?',[$request->text, $request->id]);
+        return Redirect::to("/");
+
+    }
+    public function deletepost($id){
+        DB::delete('delete from posts where id = ?',[$id]);
+        return Redirect::to("/");
     }
 }

@@ -1,18 +1,7 @@
 @extends("layouts.{$layout}")
 
 @section('content')
-<div class="container container-240">
-    @if(Session::has('error'))
-        <p>{{ Session::get('error') }}</p>
-    @endif
-    @if(Session::has('success'))
-        <p>{{ Session::get('success') }}</p>
-    @endif
-    <!-- <form action="/obr" method="POST">
-        <input type="text" name="field">
-        <button>Отправить</button>
-    </form> -->
-</div>
+
 <div class="container container-240">
     <form action="/obr" method="POST" class="two">
         <h1>Registration</h1>

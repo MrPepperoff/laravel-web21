@@ -1,5 +1,14 @@
 @extends("layouts.{$layout}")
-
+<!-- <form action="/update-post" method="POST">
+@foreach($data as $post)
+    <p>{{ $post->text }}</p>
+    
+    <input type="text" name='update'>
+    <button>Обновить</button>
+    <a href="/delete-post/{{ $post->id }}">удалил</a> 
+   
+@endforeach
+</form> -->
 @section('content')
         <div class="ads-group v3">
             <div class="container container-240">

@@ -13,13 +13,46 @@ use App\Http\Controllers\IndexController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+/*
+                            Route::prefix('admin')->group(function(){
+                                Route::prefix('global')->group(function(){
+                                    Route::controller(AdminController::class)->group(function(){
+                                        Route::get('/','index');
+                                    });
+                                });
+                                Route::controller(UserController::class)->group(function(){
+                                    Route::get('/','index');
+                                });
+                            });
+*/
 
-Route::get('/', [IndexController::class, 'index']);
+// Route::get('/db1', [IndexController::class, 'db1']); групировка \/
 
-Route::get('/about', [IndexController::class, 'about'])->name('about');
+Route::controller(IndexController::class)->group(function(){
+    Route::get('/','index')->name('index');
+    Route::get('/contact','contact')->name('contact');
+    Route::get('/about','about')->name('about');
+    
+    Route::prefix('category')->group(function(){
+        Route::get('/','categories')->name('category');
+        Route::get('/{alias}','category')->name('category_alias');
+    });
 
-Route::get('/posts/{flag?}', [IndexController::class, 'posts'])->name('posts');
 
-Route::post('/obr', [IndexController::class, 'obr']);
 
-Route::get('/contact', [IndexController::class, 'contact']);
+    
+    Route::get('/posts/{flag?}','posts')->name('posts');
+    Route::get('/db1/{id?}/{name?}','db1')-> name('db1');
+    Route::get('/delete-post/{id}','deletepost')->name('deletepost');
+    Route::get('/update-post/{id}','updatepost')->name('updatepost');
+    
+    Route::post('/db2','db2')-> name('db2');
+    Route::post('/obr','obr');
+    Route::post('/obr_db','obr_db');
+
+});
+
+
+
+
+

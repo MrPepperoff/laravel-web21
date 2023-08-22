@@ -1,0 +1,2 @@
+web.php -> controller -> view
+function   dd()         .blade.php

@@ -182,3 +182,29 @@
 	border-bottom: 3px solid #0f0;
 	background: #afa;
 }
+
+.post_item{
+	border: 1px solid #000;
+	margin: 5px 0;
+	border-radius: 5px;
+}
+.post_item h2{
+	text-align: center;
+}
+.post_item p{
+	padding: 0 20px;
+}
+.post_item .author_wrap{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	border: 1px solid #000;
+	background: #333;
+}
+.post_item .author{
+	color: #fff;
+	text-transform: capitalize;
+}
+.post_item .gender{
+	color: #f00;
+}

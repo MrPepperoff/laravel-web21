@@ -1,12 +1,30 @@
 @extends("layouts.{$layout}")
 
 @section('content')
+   
         <div class="aboutus">
+            
+            
+
             <div class="container container-240">
-                <div class="about-img spc2">
-                    <img src="../resources/img/about/about_1.jpg" alt="" class="img-responsive">
+
+                <div class="row">
+                    @foreach($posts as $post)
+                    <div class="col-12 post_item">
+                        <h2>{{ $post -> title}}</h2> 
+                        <p>{{ $post-> text }}</p>
+                        <div class="author_wrap">
+                            <span class="author">{{ $post-> author-> name}}</span>
+                            <span class="gender">{{ $post-> author-> gender-> gender}}</span> 
+                        </div>
+                    </div>
+                       
+                    @endforeach
                 </div>
+                
+                    
             </div>
+
 
             <div class="about-content">
                 <div class="container container-240">

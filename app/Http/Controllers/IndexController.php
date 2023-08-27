@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Author;
+use App\Models\Gender;
+use App\Models\Post;
 use App\Validators\PostValidator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -19,9 +22,31 @@ class IndexController extends Controller{
 
         return view('pages.welcome', compact('widget', 'layout', 'data'));
     }
-    public function about(){
+    public function about(Request $request){
         // шаблон
+
         $layout=$this->layout;
+
+        // $posts = Post::where('id', $request->id)->get();
+              // Post::get();  // множество объектов
+              // Post::first(); // одиночный объект
+              // Post::where('id',19)->first(); // одиночный объект с id - 19
+              // Post::where('id',19)->get();  // множество из одного объекта с id - 19
+        // $id = $request->id;
+        // if(isset($request->text)){
+        //     $model = new Post;
+        //     $model->text = $request->text;
+        //     $model->save();
+        //     $posts = Post::get();
+        //     $data = [];    
+        // }
+            
+        $genders = Gender::get();
+            
+
+        $posts = Post::get();
+            dd($posts[1]->categories[0]-> categories);
+        $data = [];
 
         // виджеты
         $verticalWrapper = view('widgets.vertical-wrapper',  compact('layout'));
@@ -36,7 +61,9 @@ class IndexController extends Controller{
                 'verticalWrapper', 
                 'menuPush', 
                 'bannerTop', 
-                'breadcrumb'
+                'breadcrumb',
+                'posts',
+                // 'id'
             )
         );
     }
@@ -132,7 +159,15 @@ class IndexController extends Controller{
     
         dd($request);
     }
-    
+    public function about2(Request $request){
+
+        dd($request);
+
+        $layout="full";
+        // $id = ;
+        return view ('pages.db1', compact('layout'));
+        
+    }
 
 
 

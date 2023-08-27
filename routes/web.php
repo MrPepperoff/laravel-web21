@@ -31,7 +31,7 @@ use App\Http\Controllers\IndexController;
 Route::controller(IndexController::class)->group(function(){
     Route::get('/','index')->name('index');
     Route::get('/contact','contact')->name('contact');
-    Route::get('/about','about')->name('about');
+    Route::get('/about/{text?}','about')->name('about');
     
     Route::prefix('category')->group(function(){
         Route::get('/','categories')->name('category');
@@ -46,6 +46,7 @@ Route::controller(IndexController::class)->group(function(){
     Route::get('/delete-post/{id}','deletepost')->name('deletepost');
     Route::get('/update-post/{id}','updatepost')->name('updatepost');
     
+
     Route::post('/db2','db2')-> name('db2');
     Route::post('/obr','obr');
     Route::post('/obr_db','obr_db');

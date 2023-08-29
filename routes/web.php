@@ -31,8 +31,9 @@ use App\Http\Controllers\IndexController;
 Route::controller(IndexController::class)->group(function(){
     Route::get('/','index')->name('index');
     Route::get('/contact','contact')->name('contact');
-    Route::get('/about/{text?}','about')->name('about');
-    
+    Route::get('/about','about')->middleware('test')->name('about');
+    Route::get('/obr','obr')->middleware(['loginEmail', 'loginName']);
+
     Route::prefix('category')->group(function(){
         Route::get('/','categories')->name('category');
         Route::get('/{alias}','category')->name('category_alias');
@@ -48,7 +49,7 @@ Route::controller(IndexController::class)->group(function(){
     
 
     Route::post('/db2','db2')-> name('db2');
-    Route::post('/obr','obr');
+    
     Route::post('/obr_db','obr_db');
 
 });

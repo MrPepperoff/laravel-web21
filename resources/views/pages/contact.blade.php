@@ -1,6 +1,16 @@
 @extends("layouts.{$layout}")
 
 @section('content')
+
+
+    <form action="/obr" method="GET">
+        @csrf
+        <input type="text" name="mail" placeholder="mail">
+        <input type="text" name="name" placeholder="name">
+        <button>Send</button>
+    </form>
+
+
             <div class="e-contact">
                 <div id="googlemap1" class="map"></div>
                 <div class="row">

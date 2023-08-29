@@ -45,7 +45,7 @@ class IndexController extends Controller{
             
 
         $posts = Post::get();
-            dd($posts[1]->categories[0]-> categories);
+            // dd($posts[1]->categories[0]-> categories);
         $data = [];
 
         // виджеты
@@ -119,35 +119,11 @@ class IndexController extends Controller{
         $layout=$this->layout;
         return view ('pages.posts', compact('layout'));
     }
+    
     public function obr(Request $request){
-
-        $validator = PostValidator::valid($request);
- 
-        
-        if($validator->fails()){
-
-            return Redirect::to('posts')->with('error', 'error!');
-            
-        }
-        DB::insert('insert into posts (text) value (?)', [$request->text]);   
-        return Redirect::to('posts')->with('success', 'ok!');
+        $layout="full";
+        return view ('pages.obr', compact('layout'));
     }
-    public function obr_db(Request $request){
-
-        $validator = PostValidator::obrab($request);
- 
-        
-        if($validator->fails()){
-
-            return Redirect::to('db1')->with('error', 'error!');
-            
-        }
-        DB::insert('insert into posts (text) value (?)', [$request->name]);   
-        return Redirect::to('db1')->with('success', 'ok!');
-    }
-
-
-
 
     public function db1($id= null, $name= null){
         // $mass = ['id'=> $id, 'name'=>$name];

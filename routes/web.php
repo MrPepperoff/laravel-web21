@@ -38,7 +38,9 @@ Route::controller(IndexController::class)->group(function(){
     Route::get('/db1/{id?}/{name?}','db1')-> name('db1');
     Route::get('/delete-post/{id}','deletepost')->name('deletepost');
     Route::get('/update-post/{id}','updatepost')->name('updatepost');
-    
+
+    // Route::get('/post2','post2')->name('post2');
+
     Route::post('/loadfile','loadfile')-> name('loadfile');
 
     Route::post('/db2','db2')-> name('db2');

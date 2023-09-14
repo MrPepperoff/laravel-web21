@@ -220,6 +220,29 @@ class IndexController extends Controller{
     public function collection(){
 
         return new PostCollection(Post::all());
+    }
+    public function test_request(Request $request){
+        $post = Post::where('id', $request->id)->first();
+        return $post;
+    } 
+
+    public function test_all(Request $request){
+        
+        $posts = Post::get();
+        return $posts;
+    }
+    public function post2(){
+        $posts = Post::get();
+        return $posts;
+    }  
+    public function post_del(Request $request){
+        if($request->id != null){
+            Post::where('id', $request->id)->delete();
+            return Post::get();
+        }
+    }
+    public function mail(){
+        
     }  
 }
 

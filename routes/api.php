@@ -28,3 +28,9 @@ Route::get('/', [IndexController::class, 'test']);
 Route::get('/res', [IndexController::class, 'res']);
 
 Route::get('/collection', [IndexController::class, 'collection']);
+
+Route::post('/test-request', [IndexController::class, 'test_request']);
+
+Route::get('/post2', [IndexController::class, 'post2']);
+
+Route::post('/post-del', [IndexController::class, 'post_del']);

@@ -1,13 +1,8 @@
 @extends("layouts.{$layout}")
 
 @section('content')
-   
         <div class="aboutus">
-            
-            
-
             <div class="container container-240">
-
                 <div class="row">
                     @foreach($posts as $post)
                     <div class="col-12 post_item">
@@ -20,9 +15,7 @@
                     </div>
                        
                     @endforeach
-                </div>
-                
-                    
+                </div>   
             </div>
 
 

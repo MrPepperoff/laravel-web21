@@ -2,13 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PostCollection;
+use App\Http\Resources\PostResource;
+use App\Jobs\Test;
+use App\Jobs\Test2;
 use App\Models\Author;
 use App\Models\Gender;
 use App\Models\Post;
+use App\Models\User;
 use App\Validators\PostValidator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 
 class IndexController extends Controller{
@@ -19,8 +28,11 @@ class IndexController extends Controller{
 
         $layout = 'main';
         $widget = view('widgets.vertical-wrapper',  compact('layout'));
-
-        return view('pages.welcome', compact('widget', 'layout', 'data'));
+        $user = null;
+        if(Auth::check()){
+            $user = Auth::user();
+        }
+        return view('pages.welcome', compact('widget', 'layout', 'data', 'user'));
     }
     public function about(Request $request){
         // шаблон
@@ -38,7 +50,7 @@ class IndexController extends Controller{
         //     $model->text = $request->text;
         //     $model->save();
         //     $posts = Post::get();
-        //     $data = [];    
+        //     $data = [];
         // }
             
         $genders = Gender::get();
@@ -119,9 +131,10 @@ class IndexController extends Controller{
         $layout=$this->layout;
         return view ('pages.posts', compact('layout'));
     }
-    
+
     public function obr(Request $request){
         $layout="full";
+
         return view ('pages.obr', compact('layout'));
     }
 
@@ -163,4 +176,50 @@ class IndexController extends Controller{
         DB::delete('delete from posts where id = ?',[$id]);
         return Redirect::to("/");
     }
+    public function logout(Request $request){
+        Auth::logout();
+        return Redirect::to('/');
+    }
+    public function loadfile(Request $request){
+        $request->file("myfile")->store('public/avatars');
+        $path = Storage::putFile('storage/avatars', $request->file('myfile'));
+        dump($path);
+        $layout = "full";
+        return view('pages.loadfile', compact('layout', 'path'));
+    }
+    public function authorisation(Request $request){
+
+        $credentials = $request->validate([
+            'email' => ['required', 'email'],
+            'password' => ['required'],
+        ]);
+
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+ 
+        }
+        else{
+            dd('не вошел');
+        }
+        return Redirect::to('/');
+    }
+    public function test(){
+        $users = User::get();
+        return $users;
+    }
+    public function jobs(){
+        Test::dispatch("Tests - Error");
+
+        Test2::dispatch();
+        // dd(1);
+    }  
+
+    public function res(){
+        return new PostResource(Post::get());
+    } 
+    public function collection(){
+
+        return new PostCollection(Post::all());
+    }  
 }
+

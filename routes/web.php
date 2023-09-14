@@ -4,16 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 
 /*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-/*
                             Route::prefix('admin')->group(function(){
                                 Route::prefix('global')->group(function(){
                                     Route::controller(AdminController::class)->group(function(){
@@ -33,12 +23,14 @@ Route::controller(IndexController::class)->group(function(){
     Route::get('/contact','contact')->name('contact');
     Route::get('/about','about')->middleware('test')->name('about');
     Route::get('/obr','obr')->middleware(['loginEmail', 'loginName']);
+    Route::get('/logout','logout')-> name('logout');
+    
+    Route::get('/jobs','jobs')-> name('jobs');
 
     Route::prefix('category')->group(function(){
         Route::get('/','categories')->name('category');
         Route::get('/{alias}','category')->name('category_alias');
     });
-
 
 
     
@@ -47,9 +39,10 @@ Route::controller(IndexController::class)->group(function(){
     Route::get('/delete-post/{id}','deletepost')->name('deletepost');
     Route::get('/update-post/{id}','updatepost')->name('updatepost');
     
+    Route::post('/loadfile','loadfile')-> name('loadfile');
 
     Route::post('/db2','db2')-> name('db2');
-    
+    Route::post('/authorisation','authorisation')-> name('authorisation');
     Route::post('/obr_db','obr_db');
 
 });

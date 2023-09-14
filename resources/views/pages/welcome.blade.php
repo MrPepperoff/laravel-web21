@@ -13,6 +13,30 @@
         <div class="ads-group v3">
             <div class="container container-240">
                 <div class="row">
+                <div class="col-lg-3 col-md-3 set-w"></div>
+                    <div class="col-lg-9 col-md-9 set-w2">
+                        <p>Welcome</p>
+                            <form action="/loadfile" method="POST" enctype="multipart/form-data">
+                                @csrf
+                                <input type="file" name="myfile">
+                                <button>Войти</button>
+                            </form>
+                        @if($user)
+                            <a href="/logout">Выход</a>
+                        @else
+                        <form action="/authorisation" method="POST">
+                            @csrf
+                            <input type="email" name="email" placeholder="email">
+                            <input type="password" name="password" placeholder="password">
+                            <button>Войти</button>
+                        </form> 
+                        @endif       
+                    </div>
+                </div>
+                
+            </div>
+            <div class="container container-240">
+                <div class="row">
                     <div class="col-lg-3 col-md-3 set-w"></div>
                     <div class="col-lg-9 col-md-9 set-w2">
                         <div class="row">
